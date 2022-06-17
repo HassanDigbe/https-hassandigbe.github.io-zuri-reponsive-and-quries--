@@ -4,41 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flexbox layout</title>
+    <title>login form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="script.js"></script>
-    <h1>FLEX+GRID</h1>
+    <header></header>
     <main>
-      <div class="top-content">
-        <img src="img/icon-sedans.svg" />
-        <h2>SEDANS</h2>
-        <p>
-          choose a sedan for it's affordability and excellent fuel economy ideal
-          for cruising in the city or on the next road trip.
-        </p>
-        <button>Learn more</button>
-      </div>
-
-      <div class="middle-content">
-        <img src="img/icon-suvs.svg" />
-        <h3>SUV</h3>
-        <p>
-          Take an SUV for it's spacious interior, power, and versatility,
-          perfect for your next family vacation and off-road adventure
-        </p>
-        <button>Learn more</button>
-      </div>
-
-      <div class="last-content">
-        <img src="img/icon-luxury.svg" />
-        <h3>LUXURY</h3>
-        <p>
-          Cruise in the best car brands without the bloated prices. Enjoy the
-          enhance comfort of a luxury rental and arrive in style
-        </p>
-        <button>Learn more</button>
+      <div class="container">
+        <div class="content-1">
+          <h1>learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real time watching
+            scripted tutorial is great, but undestanding how developers think is
+            invaluable
+          </p>
+        </div>
+        <div class="content-2">
+          <div class="try">
+            <p><span>Try it free 7 days</span> then $20 mo, thereafter</p>
+          </div>
+          <form>
+            <input
+              type="text"
+              id="first name"
+              name="first name"
+              placeholder="First Name"
+              required
+            /><br />
+            <input
+              type="text"
+              id="last name"
+              name="last name"
+              placeholder="Last Name"
+              required
+            /><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            /><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            /><br />
+            <input id="submit" type="submit" value="CLAIM YOUR FREE TRIAL" />
+            <p>
+              By clicking the button, you are agreeing to our<a href="#">
+                Term and services</a
+              >
+            </p>
+          </form>
+        </div>
       </div>
     </main>
   </body>
